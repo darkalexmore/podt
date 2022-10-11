@@ -1,8 +1,3 @@
-//{ Driver Code Starts
-#include<bits/stdc++.h>
-using namespace std;
-
-// } Driver Code Ends
 class Solution {
 	public:
 	    bool isPrime(int n){
@@ -32,18 +27,3 @@ class Solution {
 		}
 
 };
-
-//{ Driver Code Starts.
-int main(){
-	int tc;
-	cin >> tc;
-	while(tc--){
-		int N;
-		cin >> N;
-		Solution obj;
-		int ans = obj.NthTerm(N);
-		cout << ans << "\n";
-	}
-	return 0;
-}
-// } Driver Code Ends
